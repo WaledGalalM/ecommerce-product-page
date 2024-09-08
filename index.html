@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="syle.css">
+  
+</head>
+<body>
+
+  <div class="empty empty-toggle">   <!-- when you cart Empty -->
+    
+      <div class="Title">
+        <p>Cart</p>
+        <hr>
+        <p>Your cart is empty.</p>
+      </div> 
+  </div> 
+
+  <div class="cart Full-toggle">    <!-- she cart full only -->
+    <div class="Title">
+      <p>Cart</p>
+      <hr>
+    </div>
+
+    <div class="cart-full"> <!-- when you cart Full-->
+
+      <div class="img_cart_left">
+        <img src="projects/images/image-product-1.jpg">
+      </div>
+
+      <div class="detalis_center">
+        <p>Fall Limited Edition Sneakers</p>
+        <p> <span style="font-weight: 800; font-size: 20px;">$125.00  * </span> <span style="color: blue;" class="num-productsInCart">3</span> <span class="totalPrice">$375.00</span></p>
+      </div>
+      <div class="img_delete">
+        <img src="projects/images/icon-delete.svg" >
+      </div>
+
+    </div>   
+           <!-- End detalis_cart -->
+           <div class="CheckOut">
+            <button id="Check">Checkout</button>
+          </div>
+
+  </div>
+
+  
+  <nav>
+    <div class="nav-right">
+      <img src="projects/images/icon-menu.svg">
+      <img src="projects/images/logo.svg" >
+
+      <div class="links-nav">
+        <img src="projects/images/icon-close.svg" >
+       <ul>
+        <li><a href="#"></a> Collections</li>
+        <li><a href="#"></a> Men</li>
+        <li><a href="#"></a>Women</li>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Contact</li>
+       </ul>
+      </div>
+    </div>
+
+    <div class="nav-left">
+      <img src="projects/images/icon-cart.svg">
+      <img src="projects/images/image-avatar.png"width="30px">
+      <div class="num"> <span>0</span></div>
+    </div>
+  </nav>  <!--End nave  -->
+ <div class="all">
+  <aside>
+    <div class="products_img">
+      <img src="projects/images/image-product-1.jpg"  >
+      <img src="projects/images/icon-previous.svg">
+      <img src="projects/images/icon-next.svg">
+    </div>
+
+    <div class="smallProducts_img">
+      <img src="projects/images/image-product-1-thumbnail.jpg" >
+      <img src="projects/images/image-product-2-thumbnail.jpg" >
+      <img src="projects/images/image-product-3-thumbnail.jpg" >
+      <img src="projects/images/image-product-4-thumbnail.jpg" >
+     
+    </div>
+  </aside>    <!--End aside section -->
+
+ <article>
+  <div class="detalis_text">
+    <p>  Sneaker Company</p>
+    <h1>  Fall Limited Edition Sneakers</h1>
+    <p>
+      These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+  </div>
+
+  <div class="price_products">
+    <div class="Befor_price">
+    <span> $125.00</span>
+    <span>50%</span>
+    </div>
+    <div class="After_price">
+      <span>$250.00</span>
+    </div>
+   
+  </div>
+<div class="all-btn">
+  <div class="add_products">
+    <div class="plus_add">
+      <img src="projects/images/icon-plus.svg" >
+      <span>0</span>
+      <img src="projects/images/icon-minus.svg" >
+    </div>
+    </div>
+    
+    <div class="addToCard">
+      <button><img src="projects/images/icon-cart.svg"> <span>Add to cart</span></button>
+  </div>
+</div>
+ </article>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
