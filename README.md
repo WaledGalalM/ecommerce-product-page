@@ -23,7 +23,7 @@ Your users should be able to:
 - Open a lightbox gallery by clicking on the large product image
 - Switch the large product image by clicking on the small thumbnail images
 - Add items to the cart
-- View the cart and remove items from it
+
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
